@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты на Python</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <div class="header-links">
+        <a href="/" class="header-link">Главная</a>
+        <a href="/about_me" class="header-link">Обо мне</a>
+    </div>
+</header>
+
+<section id="projects">
+    <h2>Проекты на Базах данных</h2>
+    <div class="projects-container">
+        <a href="https://github.com/your_project_1" class="project__link">
+            <div class="project__card" style="background: linear-gradient(135deg, #00b09b, #96c93d);">
+                <span class="project__number">1</span>
+                <img class="project__img" src="../static/img/project1.png" alt="Проект 1">
+            </div>
+        </a>
+        <a href="https://github.com/your_project_2" class="project__link">
+            <div class="project__card" style="background: linear-gradient(135deg, #00b09b, #96c93d);">
+                <span class="project__number">2</span>
+                <img class="project__img" src="../static/img/project2.png" alt="Проект 2">
+            </div>
+        </a>
+        <!-- Добавьте другие проекты сюда -->
+    </div>
+</section>
+
+<section id="contacts">
+    <h2>Контакты</h2>
+    <p>Связаться со мной можно по следующим каналам:</p>
+    <ul>
+        <li>Email: michael.morozuk01@gmail.com</li>
+        <li>Телеграм: @Misha_fun</li>
+        <li>Discord: yourdiscord#1234</li>
+    </ul>
+</section>
+
+</body>
+</html>

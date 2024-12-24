@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты - {{ skill }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#skills">Навыки</a></li>
+        <li><a href="#projects">Проекты</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+    </ul>
+</header>
+
+<section id="projects">
+    <h2>Проекты по теме: {{ skill }}</h2>
+    <div class="projects-container">
+        <!-- Пример карточки проекта 1 -->
+        <a href="https://github.com/your_project_1" class="project__link">
+            <div class="project__card">
+                <span class="project__number">1</span>
+                <img class="project__img" src="../static/img/project1.png" alt="Проект 1">
+            </div>
+        </a>
+        <!-- Пример карточки проекта 2 -->
+        <a href="https://github.com/your_project_2" class="project__link">
+            <div class="project__card">
+                <span class="project__number">2</span>
+                <img class="project__img" src="../static/img/project2.png" alt="Проект 2">
+            </div>
+        </a>
+        <!-- Пример карточки проекта 3 -->
+        <a href="https://github.com/your_project_3" class="project__link">
+            <div class="project__card">
+                <span class="project__number">3</span>
+                <img class="project__img" src="../static/img/project3.png" alt="Проект 3">
+            </div>
+        </a>
+        <!-- Пример карточки проекта 4 -->
+        <a href="https://github.com/your_project_4" class="project__link">
+            <div class="project__card">
+                <span class="project__number">4</span>
+                <img class="project__img" src="../static/img/project4.png" alt="Проект 4">
+            </div>
+        </a>
+        <!-- Пример карточки проекта 5 -->
+        <a href="https://github.com/your_project_5" class="project__link">
+            <div class="project__card">
+                <span class="project__number">5</span>
+                <img class="project__img" src="../static/img/project5.png" alt="Проект 5">
+            </div>
+        </a>
+        <!-- Пример карточки проекта 6 -->
+        <a href="https://github.com/your_project_6" class="project__link">
+            <div class="project__card">
+                <span class="project__number">6</span>
+                <img class="project__img" src="../static/img/project6.png" alt="Проект 6">
+            </div>
+        </a>
+        <!-- Пример карточки проекта 7 -->
+        <a href="https://github.com/your_project_7" class="project__link">
+            <div class="project__card">
+                <span class="project__number">7</span>
+                <img class="project__img" src="../static/img/project7.png" alt="Проект 7">
+            </div>
+        </a>
+        <!-- Пример карточки проекта 8 -->
+        <a href="https://github.com/your_project_8" class="project__link">
+            <div class="project__card">
+                <span class="project__number">8</span>
+                <img class="project__img" src="../static/img/project8.png" alt="Проект 8">
+            </div>
+        </a>
+        <!-- Пример карточки проекта 9 -->
+        <a href="https://github.com/your_project_9" class="project__link">
+            <div class="project__card">
+                <span class="project__number">9</span>
+                <img class="project__img" src="../static/img/project9.png" alt="Проект 9">
+            </div>
+        </a>
+        <!-- Пример карточки проекта 10 -->
+        <a href="https://github.com/your_project_10" class="project__link">
+            <div class="project__card">
+                <span class="project__number">10</span>
+                <img class="project__img" src="../static/img/project10.png" alt="Проект 10">
+            </div>
+        </a>
+    </div>
+</section>
+
+</body>
+</html>

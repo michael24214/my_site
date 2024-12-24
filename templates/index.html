@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <div class="header-links">
+        <a href="/about_me" class="header-link">Обо мне</a>
+    </div>
+</header>
+
+<section id="about">
+    <h2>Обо мне</h2>
+    <p>
+        Привет! Я разработчик, увлекаюсь созданием веб-приложений, ботов для Telegram и Discord, а также автоматизацией процессов с помощью Python. Обожаю решать интересные задачи и постоянно совершенствую свои навыки.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Навыки</h2>
+    <div class="skills-container">
+        <div class="skill-card" style="background: linear-gradient(135deg, #00c6ff, #0072ff);">
+            <h3>Python</h3>
+            <a href="/python_projects" class="skill-button">Показать проекты</a>
+        </div>
+        <div class="skill-card" style="background: linear-gradient(135deg, #7289da, #99aab5);">
+            <h3>Discord/Telegram</h3>
+            <a href="/discord_projects" class="skill-button">Показать проекты</a>
+        </div>
+        <div class="skill-card" style="background: linear-gradient(135deg, #ff7e5f, #feb47b);">
+            <h3>HTML</h3>
+            <a href="/html_projects" class="skill-button">Показать проекты</a>
+        </div>
+        <div class="skill-card" style="background: linear-gradient(135deg, #00b09b, #96c93d);">
+            <h3>Базы данных</h3>
+            <a href="/db_projects" class="skill-button">Показать проекты</a>
+        </div>
+    </div>
+</section>
+
+<div id="contacts">
+    <h2>Контакты</h2>
+<div class="contacts-container">
+    <a href="mailto:michael.morozuk01@gmail.com" class="contact-card">
+        <div class="contact-icon gmail-icon"></div>
+        <p class="contact-text">G-mail</p>
+    </a>
+    <a href="https://github.com/michael24214" class="contact-card">
+        <div class="contact-icon github-icon"></div>
+        <p class="contact-text">GitHub Profile</p>
+    </a>
+    <a href="https://t.me/Misha_fun" class="contact-card">
+        <div class="contact-icon telegram-icon"></div>
+        <p class="contact-text">Telegram</p>
+    </a>
+    <a href="https://discord.com/users/MRX0405" class="contact-card">
+        <div class="contact-icon discord-icon"></div>
+        <p class="contact-text">Discord</p>
+    </a>
+</div>
+
+
